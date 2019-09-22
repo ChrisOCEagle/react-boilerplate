@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'inline-source-map',
   entry: './src/index.js', //entry point of application
   output: {
-    path: path.resolve(__dirname, '/build'),
+    path: path.resolve(__dirname, 'build'),
     publicPath: '/',
     filename: 'bundle.js',
   }, //after bundling put the output of the bundling process into dist/bundle.js
